@@ -1,0 +1,258 @@
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC|Indie+Flower|Slabo+27px';
+
+/*Layer Classes */
+
+body {
+  background-color: #CCCCCC;
+  border-color: #006699;
+  font-family: 'Indie Flower', cursive,'Slabo 27px', serif,  monospace;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: auto;
+  overflow: auto;
+  transition: background-color .2s ease;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 4%; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  font-family: 'Slabo 27px', serif,  monospace;
+}
+
+/* The navigation menu links */
+
+.sidenav h4 {
+  padding: 5%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+  position: absolute;
+  top: -3%;
+  right: 5%;
+  font-size: 60px !important;
+  margin-left: 50px;
+  color: white;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 1%;
+}
+
+.circle:hover {
+  cursor:pointer;
+  transform: scale(1.3);
+}
+
+.circle1 {
+  background-color: #CCFFCC;
+  border-color: #404040;
+}
+
+.circle2 {
+  background-color: #CCCC99;
+  border-color: #003366;
+}
+
+.circle3 {
+  background-color: #003366;
+  border-color: #CCCCCC;
+}
+
+.circle4 {
+  background-color: #E5E4D7;
+  border-color: #2C6700;
+}
+
+.circle5 {
+  background-color: #000000;
+  border-color: #FFCC00;
+}
+
+.circle6 {
+  background-color: #FFCC00;
+  border-color: #3333FF;
+}
+
+.circle7 {
+  background-color: #FFCC00;
+  border-color: #CC0000;
+}
+
+.circle8 {
+  background-color: #CCCCCC;
+  border-color: #006699;
+}
+
+.circle9 {
+  background-color: #FFAEAE;
+  border-color: #000000;
+}
+
+.circle10 {
+  background-color: #34DDDD;
+  border-color: #000000;
+}
+
+.layout {
+  background-color: inherit;
+  width: 100%;
+}
+
+.btnSection {
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  margin-top: 2%;
+}
+
+.midSection {
+  background-color: inherit;
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.box {
+  height: auto;
+  width: auto;
+  display: none;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  border-radius: 0%;
+  border-color: inherit;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+/*Buttons Classes */
+.quoteBtn {
+  color: inherit;
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  font-size: 120%;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0%;
+  border-color: inherit;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  transition: all .2s ease;
+  font-family: 'Slabo 27px', serif,  monospace;
+  font-weight: bold;
+  outline: none;
+}
+
+.quoteBtn:hover {
+  transform: scale(1.3);
+}
+
+.navBtn {
+  color: inherit;
+  background-color: inherit;
+  width: 50px;
+  height: 50px;
+  font-size: 100%;
+  border: 4px solid;
+  border-radius: 50%;
+  border-color: inherit;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  transition: all .2s ease;
+  font-family: 'Slabo 27px', serif,  monospace;
+  font-weight: bold;
+  outline: none;
+  float: left;
+}
+
+.navBtn:hover {
+  transform: scale(1.3);
+}
+
+.shareBtns {
+  width: auto;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: 0;
+  box-shadow: 0;
+  display: none;
+  transition: all .4s linear;
+}
+
+.shareBtns:hover {
+  cursor:pointer;
+  transform: rotate(360deg)scale(1.5);
+}
+
+/*Text Classes */
+
+.header {
+  font-size: 400%;
+  text-align: center;
+  transition: all 2s ease;
+  font-family: 'Slabo 27px', serif,  monospace;
+
+}
+
+.header:hover {
+  transform: rotateY(360deg);
+}
+
+#themeLabel {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.quote {
+  display: none;
+  font-size: 200%;
+}
+
+.author {
+  display: none;
+  font-size: 150%;
+  font-style: italic;
+}
