@@ -95,10 +95,12 @@ $(document).ready(function() {
     window.open("http://twitter.com/home/?status=" + currentQuote + currentAuthor);
   });
   $("#facePost").click(function() {
-    var currentQuote = $(".quote").html();
-    var currentAuthor = $(".author").text();
-    window.open("https://www.facebook.com/sharer.php?u" + currentQuote + currentAuthor);
+    window.open("https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcodepen.io%2Fnghia4745%2Ffull%2FpbEOzb%2F&amp;src=sdkpreparse");
   });
+
+  
+
+
   $("#print").click(function() {
     window.print();
   });
